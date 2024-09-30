@@ -86,7 +86,7 @@ def save_data(data, data_file):
 # Home route serving the HTML
 @app.route('/')
 def home():
-    return render_template('index3.html')
+    return "hi"
 
 # Autocomplete endpoint
 @app.route('/autocomplete', methods=['POST'])
